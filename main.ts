@@ -6,4 +6,4 @@ app.use((ctx) => {
   ctx.response.body = "Hello from Deno and AWS Lightsail!";
 });
 
-await app.listen({ port: 8000 });
+await app.listen({ port: 8080 });
