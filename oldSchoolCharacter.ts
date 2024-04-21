@@ -16,10 +16,10 @@ import {
  * Opens a connection to the mySQL server
  */
 const client = await new Client().connect({
-    hostname: "localhost",
-    username: "root",
+    hostname: "database-1.cfyqya6gqz4p.us-east-2.rds.amazonaws.com",
+    username: "admin",
     //db: "jcr1046",
-    password: "jcr52501",
+    password: "Test1234",
     //db: "jcr1046",
   });
   //await client.connect();
