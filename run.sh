@@ -1,0 +1,1 @@
+ssh -i "deno2.pem" ubuntu@ec2-18-216-122-197.us-east-2.compute.amazonaws.com "cd OSRSTBA"
